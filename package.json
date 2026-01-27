@@ -1,0 +1,38 @@
+{
+  "name": "commerce-turbopack-blacksmith-4vcpu",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "./build.sh",
+    "build-only": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.0.18",
+    "clsx": "^2.0.0",
+    "next": "15.5.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "20.4.4",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^9.28.0",
+    "eslint-config-next": "^16.1.3",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-unicorn": "^58.0.0",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "typescript": "5.1.6"
+  }
+}
