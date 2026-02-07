@@ -2,7 +2,6 @@ import { Carousel } from 'components/carousel';
 import { ThreeItemGrid } from 'components/grid/three-items';
 import Footer from 'components/layout/footer';
 import { Suspense } from 'react';
-import { BenchmarkMarker } from './benchmark-marker';
 
 export const runtime = 'edge';
 
@@ -23,7 +22,6 @@ export default async function HomePage() {
           <Footer />
         </Suspense>
       </Suspense>
-      <BenchmarkMarker />
     </>
   );
 }
